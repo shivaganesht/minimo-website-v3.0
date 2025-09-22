@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+  packageManager = "npm@10"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--no-audit --no-fund"
+  NODE_OPTIONS = "--max_old_space_size=4096"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

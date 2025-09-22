@@ -31,7 +31,7 @@ export default function ContactPage() {
             <div className="opacity-70">Email</div>
             <a href="mailto:hello@minimo.example" className="hover:underline">hello@minimo.example</a>
             <div className="mt-3 opacity-70">Phone</div>
-            <a href="tel:+910000000000" className="hover:underline">+91 00000 00000</a>
+            <a href="tel:+910000000000" className="hover:underline">+91 99014 55207</a>
           </div>
         </aside>
       </section>

@@ -13,10 +13,8 @@ export default function ContactPage() {
         <p className="mt-2 opacity-80 max-w-2xl mx-auto">We'd love to hear from you. Send us a note and we'll get back with comet speed.</p>
       </header>
 
-      <section className="mt-10 grid grid-cols-1 lg:grid-cols-5 gap-8">
-        <ContactForm />
-
-        <aside className="lg:col-span-2 rounded-2xl border border-white/10 bg-white/30 dark:bg-black/30 backdrop-blur-xl p-6 h-fit shadow-[inset_0_0_1px_rgba(255,255,255,0.35)]">
+      <section className="mt-10">
+        <aside className="max-w-sm mx-auto rounded-2xl border border-white/10 bg-white/30 dark:bg-black/30 backdrop-blur-xl p-6 h-fit shadow-[inset_0_0_1px_rgba(255,255,255,0.35)]">
           <h2 className="font-medium">Visit Us</h2>
           <p className="mt-2 text-sm opacity-80">582, 10th Main Road, ISRO Layout, Bengaluru, Karnataka, 560076</p>
           <a
@@ -29,12 +27,12 @@ export default function ContactPage() {
           </a>
           <div className="mt-6 text-sm">
             <div className="opacity-70">Email</div>
-            <a href="mailto:hello@minimo.example" className="hover:underline">hello@minimo.example</a>
+            <a href="mailto:minimoretail@gmail.com" className="hover:underline">minimoretail@gmail.com</a>
             <div className="mt-3 opacity-70">Phone</div>
-            <a href="tel:+910000000000" className="hover:underline">+91 99014 55207</a>
+            <a href="tel:+919901455207" className="hover:underline">+91 99014 55207</a>
           </div>
         </aside>
       </section>
-    </main>);
-
+    </main>
+  );
 }

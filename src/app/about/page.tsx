@@ -6,30 +6,34 @@ export default function AboutPage() {
       </div>
 
       <header className="text-center">
-        <h1 className="mt-4 text-3xl md:text-4xl font-semibold tracking-tight">About MINIMO</h1>
-        <p className="mt-2 opacity-80 max-w-2xl mx-auto">We craft calm, minimal everyday essentials—rooted in comfort, soft neutrals, and thoughtful materials.</p>
+        <h1 className="mt-4 text-3xl md:text-4xl font-semibold tracking-tight">About Minimo</h1>
+        <p className="mt-2 opacity-80 max-w-2xl mx-auto">Minimo is a little wonderland where everyday style meets delightful surprises.</p>
       </header>
 
       <section className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-2 rounded-2xl border border-white/10 bg-white/30 dark:bg-black/30 backdrop-blur-xl p-6 md:p-8 shadow-[inset_0_0_1px_rgba(255,255,255,0.35)]">
-          <h2 className="text-lg font-semibold">Our Story</h2>
-          <p className="mt-2 text-sm opacity-80">
-            Founded in Bangalore, MINIMO began with a simple idea: make getting dressed feel effortless. We curate a tight
-            selection of wardrobe basics—tees, shirts, trousers, and accessories—so you can mix and match with confidence.
+          <h2 className="text-lg font-semibold">About Us</h2>
+
+          <p className="mt-4 text-sm opacity-90">
+            Minimo is a little wonderland where everyday style meets delightful surprises. Inspired by a love for
+            minimal design and maximum happiness, our range covers everything cute from ladies’ bags and quirky stationery
+            to cuddly soft toys and countless adorable must-haves.
           </p>
 
-          <h3 className="mt-6 font-medium">Materials & Fit</h3>
-          <p className="mt-2 text-sm opacity-80">
-            We source soft, breathable fabrics and prioritize comfort-first silhouettes. The palette stays neutral to work
-            across seasons and styles.
+          <blockquote className="mt-6 text-center italic text-xl font-serif opacity-90 px-6">
+            “a better life doesn’t have to be expensive”
+          </blockquote>
+
+          <p className="mt-6 text-sm opacity-90">
+            Minimo curates high-quality, playful, and affordable treasures that make gifting or treating yourself a true joy.
+            Whether you’re looking to spark creativity, add some fun to your day, or find that perfect accessory, Minimo is
+            your happy place to explore.
           </p>
 
-          <h3 className="mt-6 font-medium">What We Believe</h3>
-          <ul className="mt-2 space-y-2 text-sm opacity-80 list-disc list-inside">
-            <li>Less, but better</li>
-            <li>Considered design over quick trends</li>
-            <li>Friendly, helpful in-store experience</li>
-          </ul>
+          <p className="mt-4 text-sm opacity-90">
+            Step into the world of Minimo, where simplicity meets charm, happiness is found in the little things, and every
+            day brings a new reason to smile.
+          </p>
         </div>
 
         <aside className="rounded-2xl border border-white/10 bg-white/30 dark:bg-black/30 backdrop-blur-xl p-6 h-fit">
